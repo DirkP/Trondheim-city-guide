@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DirkActivity!</string>
+    <string name="app_name">Dirk</string>
+    <string name="Trondheim">Trondheim</string>
+    <string name="Select_Category">Select Category</string>
+    <string name="Wheelchair">Wheelchair</string>
+    <string name="Backpacker">Backpacker</string>
+    <string name="Family"></string>
+    <string name="family">Family</string>
+    <string name="Select_Presentation">Select Presentation</string>
+    <string name="List">List</string>
+    <string name="Nearby_on_map">Nearby on Map</string>
+    <string name="Map">Map</string>
+    <string name="Attraction"></string>
+    <string name="attraction">Attraction</string>
+    <string name="Back">Back</string>
+
+</resources>
