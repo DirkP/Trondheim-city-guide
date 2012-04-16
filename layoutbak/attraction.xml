@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Trondheim"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="5" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left"
+            android:layout_row="0"
+            android:text="Back" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:gravity="center"
+            android:text="Attraction Name" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:text="Sound" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_column="0"
+            android:layout_columnSpan="5"
+            android:layout_row="1"
+            android:gravity="center"
+            android:text="Summary" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_height="130dp"
+            android:layout_column="0"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="2"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_column="0"
+            android:layout_columnSpan="5"
+            android:layout_row="3"
+            android:gravity="center"
+            android:text="Pictures" />
+
+        <Gallery
+            android:id="@+id/gallery1"
+            android:layout_width="match_parent"
+            android:layout_height="432dp"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="5" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="63dp"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="26dp"
+            android:layout_height="1dp"
+            android:layout_column="3"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="4" />
+
+        <Space
+            android:layout_width="62dp"
+            android:layout_height="1dp"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="182dp"
+            android:layout_height="1dp"
+            android:layout_column="1"
+            android:layout_row="0" />
+    </GridLayout>
+
+</LinearLayout>
