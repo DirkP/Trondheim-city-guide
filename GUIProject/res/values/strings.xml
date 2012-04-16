@@ -16,5 +16,8 @@
     <string name="Attraction"></string>
     <string name="attraction">Attraction</string>
     <string name="Back">Back</string>
+    <string name="continueText">Tap to continue</string>
+    <string name="Select_Attraction">Select Attraction</string>
+    <string name="Attraction_Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
 
 </resources>

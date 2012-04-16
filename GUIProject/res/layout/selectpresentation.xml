@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
     android:orientation="vertical" >
 
     <TextView
@@ -17,14 +18,28 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/Select_Attraction"
+        android:text="@string/Select_Presentation"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <ListView
-        android:id="@+id/listView1"
+    <Button
+        android:id="@+id/button1"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
-        <!-- Preview: listitem=@android:layout/simple_expandable_list_item_1 -->
-    </ListView>
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/List" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Map" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Nearby_on_map" />
 
 </LinearLayout>
